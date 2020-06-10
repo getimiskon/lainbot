@@ -28,7 +28,7 @@ class MyClient(discord.Client):
             await message.channel.send("A memory is only a record. You just have to rewrite that record.")
 
         elif message.content.find("Hi Lain") != -1:
-            await message.channel.send("https://media.discordapp.net/attachments/661242158745124864/691612106553819176/D_cnjqiUEAE9MLS.png?width=331&height=287")
+            await message.channel.send("https://github.com/getimiskon/lainbot/blob/master/assets/lain-wave.png")
         
         elif message.content.find("Present day!") != -1:
             await message.channel.send("Present time!")
@@ -53,3 +53,5 @@ class MyClient(discord.Client):
 
 client = MyClient()
 client.run("")
+
+# The client.run string has the token from Discord. It won't be uploaded here. 
