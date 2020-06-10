@@ -28,7 +28,7 @@ class MyClient(discord.Client):
             await message.channel.send("A memory is only a record. You just have to rewrite that record.")
 
         elif message.content.find("Hi Lain") != -1:
-            await message.channel.send("https://github.com/getimiskon/lainbot/blob/master/assets/lain-wave.png")
+            await message.channel.send("https://raw.githubusercontent.com/getimiskon/lainbot/master/assets/lain-wave.png")
         
         elif message.content.find("Present day!") != -1:
             await message.channel.send("Present time!")
