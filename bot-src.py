@@ -77,10 +77,10 @@ class MainClient(discord.Client):
 
 # "Dead chat" reply
 		if message.content.find("dead chat") != -1:
-			await message.channel.send("https://discord.com/channels/270375970706423808/796889008524230698/808370338923544587")
+			await message.channel.send("https://cdn.discordapp.com/attachments/719909839958048821/799804985868156948/video0.mp4")
 			
 		if message.content.find("dead chat xD") != -1:
-			await message.channel.send("https://discord.com/channels/270375970706423808/796889008524230698/808370338923544587")
+			await message.channel.send("https://cdn.discordapp.com/attachments/719909839958048821/799804985868156948/video0.mp4")
 
 #Welcome message for new members (BROKEN - MUST BE FIXED)
 #	async def on_member_join(self, member):
