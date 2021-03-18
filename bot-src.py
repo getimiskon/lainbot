@@ -77,7 +77,7 @@ class MainClient(discord.Client):
 
 # "Dead chat" reply
 		if message.content.find("dead chat") != -1:
-			await message.channel.send("{0.everyone}".format(message))
+			await message.channel.mention_everyone
 			await message.channel.send("https://cdn.discordapp.com/attachments/719909839958048821/799804985868156948/video0.mp4")
 			
 #Welcome message for new members (BROKEN - MUST BE FIXED)
